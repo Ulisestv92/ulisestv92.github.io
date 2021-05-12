@@ -118,7 +118,7 @@
 	font-size: 40px;
 	text-align: center;
 	background-color: #EAE9E5;
-  	transition-duration: 2s;
+  	transition-duration: 200s;
   	transition-property: background-color, text-transform;
   	transition-timing-function: ease-in;
   	transition-delay: 1s;
@@ -150,6 +150,13 @@
   	transition-duration: 2s;
   	transition-timing-function: ease-in;
   	transition-delay: 0s;
+}
+
+.card-img-top1 {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+
 }
 
 /*.card {
@@ -202,9 +209,9 @@
 }
 
 .paragraph_card_bottom {
-	padding-top: 20px;
+	padding-top: 40px;
 	color: #5C636B;
-	font-size: 20px;
+	font-size: 40px;
 	background-color: #EDC31C;
 	text-align: center;
 	text-transform: uppercase;
@@ -280,6 +287,7 @@
 	align-items: center;
 	justify-content: center;
 
+
 }
 
 .get_inspired {
@@ -307,6 +315,20 @@
 
 .card_general .card-img-top {
   border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover
+}
+
+.card-img-top {
+	width: 100%;
+	align-items: center;
+	align-items: center;
+	justify-content: center;
+
 }
 
 /*.card {
@@ -514,6 +536,7 @@
 }
 
 .newsletter h2 {
+	padding-top: 15px;
 	letter-spacing: 1rem;
 	margin-left: auto;
 	margin-right: auto;
@@ -528,7 +551,7 @@
 	margin:0px;
 	color: #EAE9E5;
 	text-decoration: none;
-	text-align: left;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: transparent;
@@ -566,6 +589,7 @@
 }
 
 .social_media h2 {
+	padding-top: 15px;
 	letter-spacing: 1rem;
 	color: #EAE9E5;
 	background-color: transparent;
@@ -574,7 +598,7 @@
 
 }
 
-.social_media .list_media .list_media_item {
+/*.social_media .list_media .list_media_item {
 	text-decoration: none;
 	list-style-type: none;
 	font-size: 20px;
@@ -597,14 +621,40 @@
     transition-property: background color;
   	transition-duration: 1s;
   	transition-timing-function: ease-in;
-  	transition-delay: 0s;
+  	transition-delay: 0s;*/
 
 }
 
+.list_media {
+	color: #FDEFDA;
+	text-align: justify;
+	justify-content: center;
 
+}
+
+.list_media_item {
+	font-size: 22px;
+	padding-top: 20px;
+	list-style-type: none;
+	color: #FDEFDA;
+	text-align: center;
+	text-decoration: none;
+}
+
+.list_media_item a:hover {
+	color: #FDEFDA;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.list_media_item a:link {
+	color: #FDEFDA;
+	text-decoration: none;
+	background-color: transparent;
+}
 
 .legend {
-	color: #6C2B3B;
+	color: #FDEFDA;
 }
 
 
