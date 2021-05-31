@@ -589,14 +589,14 @@
 
 }
 
-/*.footer__item {
-	text-decoration: none;
-}*/
+.footer__img {
+	padding-bottom: 0px;
+
+}
 
 
 
 .footer__paragraph {
-	padding-top: 10px;
 	background-color: transparent;
 	text-decoration: transparent;
 	color: #EAE9E5;
@@ -608,7 +608,7 @@
 	color:#7E869B;
 	font-size: 12px;
 	background-color: #EAE9E5;
-	text-align: left;
+	text-align: center;
 	background-color: transparent;
 	text-decoration: transparent;
 }
