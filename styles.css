@@ -178,6 +178,37 @@
 
 }
 
+.carousel-caption {
+	background-color: #F2E7C3;
+
+}
+
+.carousel-item {
+	background-color: #A22D2A;
+	padding: 0px;
+	color: #672B36;
+	text-shadow: 5px 5px 10px #EAE9E4;
+
+}
+
+.carousel-item h5 {
+	background-color: #F2E7C3;
+	color: #672B36;
+	text-shadow: 5px 5px 10px #EAE9E4;
+	font-weight: 900
+
+}
+
+.carousel-item p {
+	background-color: #F2E7C3;
+	color: #672B36;
+	text-shadow: 5px 5px 10px #EAE9E4;
+	font-weight: 900;
+
+}
+
+
+
 .section__header1 {
 	margin-top: 100px;
 	color: #A32D2A;
