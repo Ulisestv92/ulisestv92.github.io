@@ -4,12 +4,12 @@ $background-color: #EAE9E5;
 
 
 #body {
-	background-color: #EAE9E5;
-	font-family: Josefin Sans;
-	box-sizing: border-box;
 	min-height: 400px;
 	margin: 20px;
 	padding: 20px;
+	background-color: #EAE9E5;
+	font-family: Josefin Sans;
+	box-sizing: border-box;
 
 }
 
@@ -26,7 +26,7 @@ $background-color: #EAE9E5;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #392B24;
-	// background-image: url(foodbanner_3.jpeg);
+	background-image: url(foodbanner_3.jpeg);
 	border-image: 2px grey;
 	background-size: 75%;
 	width: 100%;
@@ -107,6 +107,67 @@ $background-color: #EAE9E5;
 	background-color: #EAE9E5;
 
 }
+
+.navbar {
+	min-height: 190px;
+	box-sizing: border-box;
+	color: #EAE9E4;
+	min-height: 100px;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(foodpics/foodbanner_3.jpeg);
+	border-image: 2px grey;
+	background-size: 75%;
+	width: 100%;
+	text-align: center;
+	border-style: none;
+	justify-content: flex-end;
+}
+
+.nav-item {
+	color: #5C636B;
+	font-size: 20px;
+	background-color: transparent;
+	text-decoration: none;
+	/*transition-property: background color;
+  	transition-duration: 500ms;
+  	transition-timing-function: ease-in;
+  	transition-delay: 0s;*/
+  	display: inline-block;
+	height: auto;
+	background-color: transparent;
+
+}
+
+.nav-link {
+	color: #EAE9E4;
+	font-size: 20px;
+	background-color: transparent;
+	text-decoration: none;
+	transition-property: background color;
+  	transition-duration: 500ms;
+  	transition-timing-function: ease-in;
+  	transition-delay: 0s;
+
+}
+
+.nav_logo {
+	margin-left: 10px;
+	text-align: left;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 360px;
+	border-color: 20px #51362A;
+	margin-left: auto;
+	margin-right: auto;
+	flex-grow: 1;
+}
+
 
 .section__header1 {
 	margin-top: 100px;
