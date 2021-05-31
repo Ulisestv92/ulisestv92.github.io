@@ -562,7 +562,7 @@
     background-image: radial-gradient(ellipse at bottom, #51362A 10%, #73253C 90%, #A32D2A 100%);
     bottom:0px;
     width:100%;
-    max-height: 260px;
+    max-height: 280px;
     margin-top: 50px;
 
 
@@ -601,6 +601,7 @@
 	text-decoration: transparent;
 	color: #EAE9E5;
 	margin-top: 0px;
+	text-align: center;
 
 }
 
@@ -684,6 +685,17 @@
 	background-color: transparent;
 	text-decoration: transparent;
 	text-align: center;
+
+}
+
+.btn-dark {
+	display: inline-flex;
+	text-align: center;
+	align-items: stretch;
+	align-self: stretch;
+	margin-top: 10px;
+	margin-left: 45%;
+	flex-direction: center;
 
 }
 
