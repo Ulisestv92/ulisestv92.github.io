@@ -165,12 +165,12 @@
     
 }
 
-.carousel_img{
+/*.carousel_img{
 	align-items: center;
 	text-align: center;
 	height: 80%;
     width:  80%;
-    border: 10px grey;
+    border: 10px grey;*/
 }
 
 .section {
@@ -184,8 +184,7 @@
 }
 
 .carousel-item {
-	background-color: #A22D2A;
-	padding: 0px;
+	/*padding: 0px;*/
 	color: #672B36;
 	text-shadow: 5px 5px 10px #EAE9E4;
 
