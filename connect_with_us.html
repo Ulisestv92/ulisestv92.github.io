@@ -80,30 +80,30 @@
 
 				</form> -->
 
-<form class="row g-3">
+<form  id="formulario" class="row g-3">
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail4">
+    <input type="email" class="form-control" id="email">
   </div>
   <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Nombre Completo</label>
-    <input type="password" class="form-control" id="inputPassword4">
+    <label for="inputPassword4" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="nombre">
   </div>
   <div class="col-12">
     <label for="inputAddress" class="form-label">Dirección</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    <input type="text" class="form-control" id="direccion" placeholder="Calle falsa 123">
   </div>
   <div class="col-12">
     <label for="inputAddress2" class="form-label">Direccion #2</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    <input type="text" class="form-control" id="direccion2" placeholder="PH, Piso, Departamento">
   </div>
   <div class="col-md-6">
     <label for="inputCity" class="form-label">Ciudad</label>
-    <input type="text" class="form-control" id="inputCity">
+    <input type="text" class="form-control" id="ciudad">
   </div>
   <div class="col-md-4">
-    <label for="inputState" class="form-label">State</label>
-    <select id="inputState" class="form-select">
+    <label for="inputState" class="form-label">Provincia</label>
+    <select id="provincia" class="form-select">
       <option selected>Elegir...</option>
       <option>Buenos Aires</option>
       <option>Ciudad Autonoma de Buenos Aires</option>
@@ -117,18 +117,11 @@
   </div>
   <div class="col-md-2">
     <label for="inputZip" class="form-label">Codigo postal</label>
-    <input type="text" class="form-control" id="inputZip">
+    <input type="text" class="form-control" id="cp">
   </div>
+  
   <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck">
-      <label class="form-check-label" for="gridCheck">
-        Espero una respuesta
-      </label>
-    </div>
-  </div>
-  <div class="col-12">
-    <button type="submit" class="btn btn-secondary">Enviar</button>
+    <button id="enviar type="submit" class="btn btn-secondary">Enviar</button>
   </div>
 </form>
 
@@ -193,7 +186,7 @@
 	
 	<script src="https://unpkg.com/@popperjs/core@2"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
-
+	<script src="contacto.js"></script>
 
 	</body>
 	
